@@ -1,0 +1,11 @@
+framework module BLEBrowser {
+  umbrella header "BLEBrowser.h"
+
+  export *
+  module * { export * }
+}
+
+module BLEBrowser.Swift {
+    header "BLEBrowser-Swift.h"
+    requires objc
+}

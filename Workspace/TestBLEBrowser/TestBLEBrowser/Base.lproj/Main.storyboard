@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VCH-Li-9Kh">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15508"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="JG8-tb-deg">
+            <objects>
+                <navigationController id="VCH-Li-9Kh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0at-ay-TXp">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5pj-NM-oPw" kind="relationship" relationship="rootViewController" id="KhA-96-53j"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8xD-wQ-ze1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-689" y="132"/>
+        </scene>
+        <!--BLEBrowserMainViewController-->
+        <scene sceneID="7OX-TR-Qm7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BLEBrowserMain" bundleIdentifier="com.marizack.BLEBrowser" referencedIdentifier="BLEBrowserMainViewController" id="5pj-NM-oPw" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Jzq-nB-zdU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q9C-3u-315" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5" y="131"/>
+        </scene>
+    </scenes>
+</document>

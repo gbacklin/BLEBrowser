@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E81E144234E2F8C00717873 /* BLEBrowser-iOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E81E143234E2F8C00717873 /* BLEBrowser-iOS.xcframework */; };
+		4E81E145234E2F8C00717873 /* BLEBrowser-iOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E81E143234E2F8C00717873 /* BLEBrowser-iOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4EC60ED8234E31F800715AC9 /* BLEBrowser-iOS.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = 4E81E143234E2F8C00717873 /* BLEBrowser-iOS.xcframework */; };
+		FB2F80B62023B19D00E1DC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F80B52023B19D00E1DC93 /* AppDelegate.swift */; };
+		FB2F80BB2023B19D00E1DC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2F80B92023B19D00E1DC93 /* Main.storyboard */; };
+		FB2F80BD2023B19D00E1DC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2F80BC2023B19D00E1DC93 /* Assets.xcassets */; };
+		FB2F80C02023B19D00E1DC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2F80BE2023B19D00E1DC93 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB2F80CC2023B3F700E1DC93 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4E81E145234E2F8C00717873 /* BLEBrowser-iOS.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E81E143234E2F8C00717873 /* BLEBrowser-iOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "BLEBrowser-iOS.xcframework"; sourceTree = "<group>"; };
+		FB2F80B22023B19D00E1DC93 /* TestBLEBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBLEBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2F80B52023B19D00E1DC93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB2F80BA2023B19D00E1DC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB2F80BC2023B19D00E1DC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB2F80BF2023B19D00E1DC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB2F80C12023B19D00E1DC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB2F80AF2023B19D00E1DC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E81E144234E2F8C00717873 /* BLEBrowser-iOS.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB2F80A92023B19D00E1DC93 = {
+			isa = PBXGroup;
+			children = (
+				FB2F80E02023B7FC00E1DC93 /* Frameworks */,
+				FB2F80B42023B19D00E1DC93 /* TestBLEBrowser */,
+				FB2F80B32023B19D00E1DC93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB2F80B32023B19D00E1DC93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB2F80B22023B19D00E1DC93 /* TestBLEBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB2F80B42023B19D00E1DC93 /* TestBLEBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				FB2F80B52023B19D00E1DC93 /* AppDelegate.swift */,
+				FB2F80D42023B5DC00E1DC93 /* Classes */,
+				FB2F80B92023B19D00E1DC93 /* Main.storyboard */,
+				FB2F80BC2023B19D00E1DC93 /* Assets.xcassets */,
+				FB2F80BE2023B19D00E1DC93 /* LaunchScreen.storyboard */,
+				FB2F80C12023B19D00E1DC93 /* Info.plist */,
+			);
+			path = TestBLEBrowser;
+			sourceTree = "<group>";
+		};
+		FB2F80D42023B5DC00E1DC93 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB2F80D52023B5DC00E1DC93 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FB2F80D52023B5DC00E1DC93 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FB2F80E02023B7FC00E1DC93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E81E143234E2F8C00717873 /* BLEBrowser-iOS.xcframework */,
+			);
+			name = Frameworks;
+			path = TestBLEBrowser/Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB2F80B12023B19D00E1DC93 /* TestBLEBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2F80C42023B19D00E1DC93 /* Build configuration list for PBXNativeTarget "TestBLEBrowser" */;
+			buildPhases = (
+				FB2F80AE2023B19D00E1DC93 /* Sources */,
+				FB2F80AF2023B19D00E1DC93 /* Frameworks */,
+				FB2F80B02023B19D00E1DC93 /* Resources */,
+				FB2F80CC2023B3F700E1DC93 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestBLEBrowser;
+			productName = TestBLEBrowser;
+			productReference = FB2F80B22023B19D00E1DC93 /* TestBLEBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB2F80AA2023B19D00E1DC93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Backlin,Gene";
+				TargetAttributes = {
+					FB2F80B12023B19D00E1DC93 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1120;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB2F80AD2023B19D00E1DC93 /* Build configuration list for PBXProject "TestBLEBrowser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB2F80A92023B19D00E1DC93;
+			productRefGroup = FB2F80B32023B19D00E1DC93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB2F80B12023B19D00E1DC93 /* TestBLEBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB2F80B02023B19D00E1DC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC60ED8234E31F800715AC9 /* BLEBrowser-iOS.xcframework in Resources */,
+				FB2F80C02023B19D00E1DC93 /* LaunchScreen.storyboard in Resources */,
+				FB2F80BD2023B19D00E1DC93 /* Assets.xcassets in Resources */,
+				FB2F80BB2023B19D00E1DC93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB2F80AE2023B19D00E1DC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2F80B62023B19D00E1DC93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB2F80B92023B19D00E1DC93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2F80BA2023B19D00E1DC93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB2F80BE2023B19D00E1DC93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2F80BF2023B19D00E1DC93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB2F80C22023B19D00E1DC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB2F80C32023B19D00E1DC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB2F80C52023B19D00E1DC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 42UG2T5UXS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestBLEBrowser/Frameworks",
+				);
+				INFOPLIST_FILE = TestBLEBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.TestBLEBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB2F80C62023B19D00E1DC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 42UG2T5UXS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestBLEBrowser/Frameworks",
+				);
+				INFOPLIST_FILE = TestBLEBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.TestBLEBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB2F80AD2023B19D00E1DC93 /* Build configuration list for PBXProject "TestBLEBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2F80C22023B19D00E1DC93 /* Debug */,
+				FB2F80C32023B19D00E1DC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2F80C42023B19D00E1DC93 /* Build configuration list for PBXNativeTarget "TestBLEBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2F80C52023B19D00E1DC93 /* Debug */,
+				FB2F80C62023B19D00E1DC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB2F80AA2023B19D00E1DC93 /* Project object */;
+}
